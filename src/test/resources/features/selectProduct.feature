@@ -15,5 +15,5 @@ Feature: Select Product
     And I validate the price of the product <productPriceCart> in cart
 
     Examples:
-      | productTitle                 | productPrice | pageTitle    |  productTitleCart             | productPriceCart |
-      | "Buquê de 6 Rosas Vermelhas" | "R$ 109,90"  | MEU CARRINHO |  "Buquê de 6 Rosas Vermelhas" | "R$ 109,90"      |
+      | productTitle                 | productPrice | pageTitle      |  productTitleCart             | productPriceCart |
+      | "Buquê de 6 Rosas Vermelhas" | "R$ 109,90"  | "MEU CARRINHO" |  "Buquê de 6 Rosas Vermelhas" | "R$ 109,90"      |
