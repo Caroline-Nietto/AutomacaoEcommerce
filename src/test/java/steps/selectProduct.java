@@ -90,8 +90,8 @@ public class selectProduct {
     }
 
     @Then("I validate the page title <pageTitle> in cart")
-    public void i_validate_the_page_title_page_title_in_cart() {
-        assertEquals(driver.findElement(By.cssSelector("h1.titulo-dept.title-defaut-interna")).getText(), "MEU CARRINHO");
+    public void i_validate_the_page_title_page_title_in_cart(String pageTitle) {
+        assertEquals(driver.findElement(By.cssSelector("h1.titulo-dept.title-defaut-interna")).getText(), pageTitle);
     }
 
     @Then("I validate the product title {string} in cart")

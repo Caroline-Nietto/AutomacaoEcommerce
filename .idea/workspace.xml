@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de1fe16b-4330-4498-af7c-f66331e40825" name="Changes" comment="Revisao do codigo.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" afterDir="false" />
+    <list default="true" id="de1fe16b-4330-4498-af7c-f66331e40825" name="Changes" comment="Create steps e feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,11 +122,19 @@
       <option name="project" value="LOCAL" />
       <updated>1705960971594</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create steps e feature">
+      <created>1706106917174</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1706106917174</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revisao do codigo." />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisao do codigo." />
+    <MESSAGE value="Create steps e feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create steps e feature" />
   </component>
 </project>
