@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de1fe16b-4330-4498-af7c-f66331e40825" name="Changes" comment="Create steps e feature">
+    <list default="true" id="de1fe16b-4330-4498-af7c-f66331e40825" name="Changes" comment="Revisao steps e feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,10 +50,10 @@
     <configuration name="Feature: selectProduct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" />
-      <option name="GLUE" value="steps" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="Pascoa137" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
       <option name="SUGGESTED_NAME" value="Feature: selectProduct" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
@@ -98,6 +97,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Cucumber Java.Feature: selectProduct" />
+      <item itemvalue="JUnit.AdicionarProduto" />
+      <item itemvalue="JUnit.AdicionarProduto.testSelectProductWD" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: selectProduct" />
@@ -129,12 +133,20 @@
       <option name="project" value="LOCAL" />
       <updated>1706106917174</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Revisao steps e feature">
+      <created>1706107376367</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1706107376367</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revisao do codigo." />
     <MESSAGE value="Create steps e feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create steps e feature" />
+    <MESSAGE value="Revisao steps e feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revisao steps e feature" />
   </component>
 </project>
