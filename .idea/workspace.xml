@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de1fe16b-4330-4498-af7c-f66331e40825" name="Changes" comment="Revisao steps e feature">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Runner.java" afterDir="false" />
+    <list default="true" id="de1fe16b-4330-4498-af7c-f66331e40825" name="Changes" comment="Configuração do Hooks e Runner">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,8 +116,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Cucumber Java.Feature: selectProduct" />
-        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.AdicionarProduto" />
+        <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="JUnit.AdicionarProduto.testSelectProductWD" />
       </list>
     </recent_temporary>
@@ -169,13 +166,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706108219024</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Configuração do Hooks e Runner">
+      <created>1706473338619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706473338619</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Revisao do codigo." />
     <MESSAGE value="Create steps e feature" />
     <MESSAGE value="Revisao steps e feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revisao steps e feature" />
+    <MESSAGE value="Configuração do Hooks e Runner" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuração do Hooks e Runner" />
   </component>
 </project>

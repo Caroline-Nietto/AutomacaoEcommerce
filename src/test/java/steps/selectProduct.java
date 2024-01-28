@@ -6,8 +6,10 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import java.time.Duration;
@@ -63,7 +65,7 @@ public class selectProduct {
     }
     @Then("I click on add to cart after to select the postcode")
     public void i_click_on_add_to_cart_after_to_select_the_postcode() {
-        driver.findElement(By.cssSelector("div.bt_comprar")).click();
+        driver.findElement(By.cssSelector("span.seta_carrinho")).click();
     }
     @Then("I verify the page title {string} in cart")
     public void i_verify_the_page_title_in_cart(String pageTitle) {
