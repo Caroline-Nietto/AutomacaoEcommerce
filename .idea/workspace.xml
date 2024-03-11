@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de1fe16b-4330-4498-af7c-f66331e40825" name="Changes" comment="Configuração do Hooks e Runner">
+    <list default="true" id="de1fe16b-4330-4498-af7c-f66331e40825" name="Changes" comment="Ajuste no mapeamento dos seletores">
+      <change afterPath="$PROJECT_DIR$/src/test/java/webTest/TestAdd2Produtos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/webTest/AdicionarProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTest/AdicionarProduto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +47,12 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Cucumber Java.Feature: selectProduct">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="webTest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.TestAdd2Produtos">
     <configuration name="Feature: selectProduct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" />
@@ -82,7 +88,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdicionarProduto.testSelectProductWD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AdicionarProduto.testAdicionarProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pascoa137" />
       <extension name="coverage">
         <pattern>
@@ -92,33 +98,57 @@
       </extension>
       <option name="PACKAGE_NAME" value="webTest" />
       <option name="MAIN_CLASS_NAME" value="webTest.AdicionarProduto" />
-      <option name="METHOD_NAME" value="testSelectProductWD" />
+      <option name="METHOD_NAME" value="testAdicionarProduto" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestAdd2Produtos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pascoa137" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestRunner" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webTest" />
+      <option name="MAIN_CLASS_NAME" value="webTest.TestAdd2Produtos" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAdd2Produtos.TestAdd2Produtos" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pascoa137" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="webTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="webTest" />
+      <option name="MAIN_CLASS_NAME" value="webTest.TestAdd2Produtos" />
+      <option name="METHOD_NAME" value="TestAdd2Produtos" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
       <item itemvalue="Cucumber Java.Feature: selectProduct" />
-      <item itemvalue="JUnit.TestRunner" />
+      <item itemvalue="JUnit.AdicionarProduto.testAdicionarProduto" />
       <item itemvalue="JUnit.AdicionarProduto" />
-      <item itemvalue="JUnit.AdicionarProduto.testSelectProductWD" />
+      <item itemvalue="JUnit.TestAdd2Produtos" />
+      <item itemvalue="JUnit.TestAdd2Produtos.TestAdd2Produtos" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAdd2Produtos" />
+        <item itemvalue="JUnit.TestAdd2Produtos.TestAdd2Produtos" />
+        <item itemvalue="JUnit.AdicionarProduto.testAdicionarProduto" />
         <item itemvalue="Cucumber Java.Feature: selectProduct" />
         <item itemvalue="JUnit.AdicionarProduto" />
-        <item itemvalue="JUnit.TestRunner" />
-        <item itemvalue="JUnit.AdicionarProduto.testSelectProductWD" />
       </list>
     </recent_temporary>
   </component>
@@ -173,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706473338619</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Ajuste no mapeamento dos seletores">
+      <created>1706476477441</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706476477441</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,6 +218,7 @@
     <MESSAGE value="Create steps e feature" />
     <MESSAGE value="Revisao steps e feature" />
     <MESSAGE value="Configuração do Hooks e Runner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração do Hooks e Runner" />
+    <MESSAGE value="Ajuste no mapeamento dos seletores" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste no mapeamento dos seletores" />
   </component>
 </project>

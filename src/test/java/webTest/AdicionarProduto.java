@@ -67,6 +67,7 @@ public class AdicionarProduto {
         // Seleciona o periodo para entrega
         driver.findElement(By.id("btConfirmShippingData")).click();
 
+        Thread.sleep(1000);
         // Clica em add ao carrinho após preencher as informações para entrega
         driver.findElement(By.cssSelector("div.bt_comprar")).click();
 
