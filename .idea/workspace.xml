@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de1fe16b-4330-4498-af7c-f66331e40825" name="Changes" comment="Ajuste no mapeamento dos seletores">
-      <change afterPath="$PROJECT_DIR$/src/test/java/steps/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/webTest/AdicionarProduto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/webTest/AdicionarProduto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,26 @@
       <recent name="webTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AdicionarProduto">
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="Feature: selectProduct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" />
+      <option name="GLUE" value="steps" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Pascoa137" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: selectProduct" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AdicionarProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pascoa137" />
       <extension name="coverage">
@@ -65,22 +85,6 @@
       <option name="PACKAGE_NAME" value="webTest" />
       <option name="MAIN_CLASS_NAME" value="webTest.AdicionarProduto" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AdicionarProduto.testAdicionarProduto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Pascoa137" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="webTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="webTest" />
-      <option name="MAIN_CLASS_NAME" value="webTest.AdicionarProduto" />
-      <option name="METHOD_NAME" value="testAdicionarProduto" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -132,7 +136,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.AdicionarProduto.testAdicionarProduto" />
+      <item itemvalue="Cucumber Java.Feature: selectProduct" />
       <item itemvalue="JUnit.Runner" />
       <item itemvalue="JUnit.AdicionarProduto" />
       <item itemvalue="JUnit.TestAdd2Produtos" />
@@ -140,11 +144,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AdicionarProduto" />
         <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Feature: selectProduct" />
+        <item itemvalue="JUnit.AdicionarProduto" />
         <item itemvalue="JUnit.TestAdd2Produtos" />
         <item itemvalue="JUnit.TestAdd2Produtos.TestAdd2Produtos" />
-        <item itemvalue="JUnit.AdicionarProduto.testAdicionarProduto" />
       </list>
     </recent_temporary>
   </component>
