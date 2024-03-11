@@ -1,7 +1,9 @@
 package steps;
 
 import io.cucumber.java.After;
+import io.cucumber.java.AfterAll;
 import io.cucumber.java.Before;
+import io.cucumber.java.BeforeAll;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -12,7 +14,7 @@ import java.time.Duration;
 public class Hooks {
     private static WebDriver driver;
 
-    @Before
+    @BeforeAll
     public void setUp() {
         WebDriverManager.chromedriver().setup();
 
@@ -26,7 +28,7 @@ public class Hooks {
     }
 
 
-    @After
+    @AfterAll
     public void tearDown() {
         driver.quit();
     }

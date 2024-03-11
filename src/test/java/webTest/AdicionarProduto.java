@@ -64,12 +64,13 @@ public class AdicionarProduto {
         // Clica no botão Ok para buscar o cep
         driver.findElement(By.xpath("//span[@class='btn_okcep jSelectZip']")).click();
 
+        Thread.sleep(5000);
         // Seleciona o periodo para entrega
         driver.findElement(By.id("btConfirmShippingData")).click();
 
-        Thread.sleep(1000);
+        Thread.sleep(5000);
         // Clica em add ao carrinho após preencher as informações para entrega
-        driver.findElement(By.cssSelector("div.bt_comprar")).click();
+        driver.findElement(By.id("ContentSite_lbtBuy")).click();
 
         // Valida o título da página Meu Carrinho
         assertEquals(driver.findElement(By.cssSelector("h1.titulo-dept.title-defaut-interna")).getText(), "MEU CARRINHO");
