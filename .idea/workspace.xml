@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="de1fe16b-4330-4498-af7c-f66331e40825" name="Changes" comment="Ajuste no mapeamento dos seletores">
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/TestSelect2Products.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/steps/Hooks.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/steps/selectProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Runner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +52,7 @@
       <recent name="webTest" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Runner">
+  <component name="RunManager" selected="JUnit.TestAdd2Produtos">
     <configuration name="Feature: selectProduct" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/selectProduct.feature" />
@@ -144,10 +142,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAdd2Produtos" />
         <item itemvalue="JUnit.Runner" />
         <item itemvalue="Cucumber Java.Feature: selectProduct" />
         <item itemvalue="JUnit.AdicionarProduto" />
-        <item itemvalue="JUnit.TestAdd2Produtos" />
         <item itemvalue="JUnit.TestAdd2Produtos.TestAdd2Produtos" />
       </list>
     </recent_temporary>
