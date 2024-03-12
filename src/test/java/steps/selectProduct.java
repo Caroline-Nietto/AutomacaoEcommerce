@@ -77,7 +77,8 @@ public class selectProduct {
             driver.findElement(By.id("btConfirmShippingData")).click();
         }
         @Then("I click on add to cart after to select the postcode")
-        public void i_click_on_add_to_cart_after_to_select_the_postcode () {
+        public void i_click_on_add_to_cart_after_to_select_the_postcode () throws InterruptedException {
+            Thread.sleep(5000);
             driver.findElement(By.cssSelector("span.seta_carrinho")).click();
         }
 
