@@ -171,9 +171,4 @@ public class TestSelect2Products {
     public void i_check_the_product2_price_in_cart_T(String productPrice) {
         assertEquals("R$ 149,90", driver.findElement(By.xpath("//span[@class='precoPor_basket' and contains(text(), 'R$ 149,90')]")).getText(), productPrice);
     }
-
-
-
-
-
 }
